@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maitree:wght@300;500&family=Montserrat:ital,wght@0,600;1,300&family=Nanum+Gothic:wght@400;800&family=Rajdhani:wght@400;700&family=Satisfy&family=Titillium+Web:wght@300;900&display=swap');
+
+:root{
+    --primarycolor: #fcd34d;
+    --secondartcolor: #fef9c3;
+    --bodycolor: #fffbeb;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    background-color: var(--bodycolor)
+}
+
+.rog{
+    background-color: var(--primarycolor);
+}
+
+h1{
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.inputarea{
+    display: block;
+    margin: 2rem;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    display: block;
+    /* margin-top: 1rem; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    background-color: var(--secondartcolor);
+    border-radius: 1rem;
+    border-color: var(--primarycolor);
+}
+
+.output-line{
+    padding: 1rem;
+    color: black;
+    font-size: larger;
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
+
+.output-box{
+    border: 1px solid black;
+    width: 650px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: var(--primarycolor);
+    padding: 1rem;
+}
+
+h2, p{
+    text-align: center;
+}
+p{
+    font-size: large;
+}
+
+
